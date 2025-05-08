@@ -2,9 +2,6 @@
   "name": "http-backend",
   "version": "1.0.0",
   "main": "index.js",
-  "exports": {
-    "./types": "./src/types"
-  },
   "scripts": {
     "build": "tsc -b",
     "start": "node dist/index.js",
@@ -22,7 +19,8 @@
     "@repo/typescript-config": "workspace:*",
     "@types/express": "^5.0.1",
     "@repo/backend-commen": "workspace:*",
-    "@repo/commen": "workspace:*"
+    "@repo/commen": "workspace:*",
+    "@repo/db": "workspace:*"
   },
   "keywords": [],
   "author": "",
